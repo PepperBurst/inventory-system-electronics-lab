@@ -1,0 +1,50 @@
+Database:
+	equip_project_database:
+Tables:
+	adminaccount
+		admin_ID varchar(4) primary key not null,
+		pin_password int(4) not  null,
+		first_name varchar(32) not null,
+		middle_name varchar(32) not null,
+		last_name varchar(32) not null,
+		department varchar(32) not null,
+		position varchar(32) not null
+	studentaccount
+		student_ID varchar(8) primary key not null,
+		pin_password int(4) not null,
+		first_name varchar(32) not null,
+		middle_name varchar(32) not null,
+		last_name varchar(32) not null,
+		course varchar(32) not null,
+		year_level int(1) not null,
+		return_status varchar(32) not null,
+		queue_status varchar(32) not null
+	lend_queue
+		student_ID varchar(8) not null,
+		equip_Code varchar(32) primary key not null,
+		equip_name varchar(32) not null,
+		shelf_location varchar(32) not null
+	equipment_info
+		equip_Code varchar(32) primary key not null,
+		equip_name varchar(32) not null,
+		equip_manufacturer varchar(32) not null,
+		shelf_location varchar(32) not null,
+		return_status varchar(32) not null,
+		requested varchar(32) not null
+	lend_list
+		student_ID varchar(32) not null,
+		equip_Code varchar(32) primary key not null
+	lend_history
+		lend_number int(6) primary key auto_increment,
+		equip_Code varchar(32) not null,
+		student_ID varchar(8) not null,
+		lend_date varchar(32) not null,
+		return_date varchar(32) not null
+	admin_history
+		login_order int(6) primary key auto_increment,
+		admin_ID varchar(4) not null,
+		login_date varchar(32) not null
+	student_history
+		login_order int(6) primary key auto_increment,
+		student_ID varchar(8) not null,
+		login_date varchar(32) not null
