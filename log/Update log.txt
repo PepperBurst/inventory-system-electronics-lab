@@ -1,0 +1,91 @@
+11/10/2017:
+	-Started program
+	-Added Login panel
+	-Added adminLogin panel
+	-Added studentLogin panel
+	-Added adminAction panel
+	-Added studentAction panel
+	-Added studentLendA panel
+	-Added studentacccount table
+	-Added adminacount table
+11/11/2017:
+	-Added equipment_info table
+	-Added lend_queue table
+	-Added borrow equipment
+	-Added cancel request
+	-Added view student info
+
+Updated as of 11/11/2017 - 23:40
+
+To-do-list for 11/12/2017:
+	-View queue panel
+	-Update student Info panel/function
+	-View queue status panel
+	-View admin request panel
+	-Approve request function
+
+11/12/2017 - 11/15/2017:
+	-Nagbakasyon muna ako sa Rizal
+11/16/2017:
+	-Added admin Add Equipment
+	-Added admin Edit Equipment
+	-Fixed Errors in lend_queue data transfer
+	-Fixed Errors in Borrow Equipment SQLStatement error
+	-Fixed Panel resizing
+	-Set Frame as non-resizable (still being tested)
+	-Added student action flow stopper
+	-Added pictures of table contents
+*every step is done with error checking
+
+Updated as of 11/16/2017 - 23:06
+
+To-do-list for 11/17/2017:
+	-Add admin Approve Request
+	-Add admin Reject Request
+	-Add global request list
+	-Add global equipment list
+	-patapos na to myghash
+
+11/17/2017:
+	-Added admin Approve Request
+	-Added admin Reject Request
+	-Added lend history table and function
+	-Added lend_list table
+	-Modifed equipment_info table
+		-Added requested column
+	-Fixed primary key error in history
+
+Updated as of 11/17/2017 - 20:37
+
+11/30/2017:
+	-Added edit return status in admin actions
+	-Added edit queue status in admin actions
+	-Added login history for student in admin actions
+	-Added login history for admin in admin actions
+	-Changed admin_ID in adminaccount database to varchar(4)
+	-Finished final build
+
+Updated as of 11/30/2017 - 12:15
+
+12/6/2017:
+	-Fixed table descriptions
+	-Updated table properties in text files
+	-Updated table screenshots in project directory
+
+Updated as of 12/6/2017 - 00:51
+
+12/11/2017:
+	-Changed datatype of equip_Code from int(6) to varchar(32) in 4 tables
+		-lend_list, lend_history, lend_queue and equipment_info
+		-In preparation of code changes from data gathering
+	-Added minutes and hours recording in 24-hour formar to date attributes
+
+Updated as of 12/11/2017 - 23:00
+
+12/13/2017:
+	-Removed combo box for Oscilloscope entry since there is only one available oscilloscope in BE2
+	-Fixed bugs on equipment update
+	-Moved update textfields from Edit Equip to View All Equip
+	-Recorded and updated equipment information
+
+Updates as of 12/13/2017 - 9:52

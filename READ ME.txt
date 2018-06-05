@@ -1,0 +1,12 @@
+Create tables first and add the appropriate table values
+When requesting, said equipment is reserved
+Therefore, when other users are requesting items, the available items for request
+are those that have not been reserved yet.
+
+Beta Testing starts 11/17/2017 - 21:00
+Please Document your error findings in this format in
+the Error Log.txt file
+
+Date - Time (24 Hour Format)
+	-Name
+		-Errors
